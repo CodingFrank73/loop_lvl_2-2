@@ -1,17 +1,16 @@
-
+// ----------------- Aufgabe 2_2 ------------------
 function stretch(value) {
     let x = ""
     if (value > 0) {
         for (let i = 1; i <= value; i++) {
             x += "o"
         }
-    } else {
-        x = ""
     }
 
     document.getElementById('result').innerHTML = `L${x}p`
 }
 
+// ----------------- Aufgabe 2_1 ------------------
 function imageArray() {
     let returnArray = [];
 
